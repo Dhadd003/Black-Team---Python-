@@ -1,0 +1,33 @@
+#1. Create Empty List of AWS Services 
+
+Aws_Services = []
+
+#2.Populate List using Append
+
+Aws_Services.append('API GATEWAY')
+Aws_Services.append('Cloud9')
+Aws_services.append('CodeBuild')
+Aws_Services.append('Cognito')
+Aws_Services.append('DataSync')
+Aws_Services.append('DynamoDB')
+Aws_Services.append('EC2')
+Aws_Services.append('Elastic Beanstalk')
+Aws_Services.append('S3')
+
+#3.Print the List and Length of list
+
+print('Aws_Services List')                                                                                                                                                                                                                     
+print('List of Popular AWS Services:', Aws_Services)
+print('# of Items:', len(Aws_Services))
+
+#4.Remove 2 Services from List by name & index 
+
+Aws_Services.remove('CodeBuild')
+del Aws_Services[4]
+
+#5.Print New List and Length of List 
+
+print('New')
+print('List of Popular AWS Services:', Aws_Services)
+print('# of Items in New List:', len(Aws_Services))
+
