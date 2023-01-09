@@ -8,12 +8,12 @@ import random
 import string
 
 # Ask for amount of ec2
-ec2 = int(input("Enter how many EC2 Instances you want: "))
+ec2 = int(input("Enter how many EC2 Instances you would like: "))
 print("EC2 wanted:",ec2)
 
 print()
 
-# Ver. that department is within "job"
+# Select Department
 department = ['marketing','accounting','finops']
 print("List of departments: ")
 print(department)
@@ -25,7 +25,7 @@ dep = dep.lower()
 if dep in department:
     print("Department you selected:",dep)
 else:
-    print("ERROR. Enter a department from the list.")
+    print("Error. Must select a department from the list.")
         
 
 # Gen a unique name w/ dep name 
