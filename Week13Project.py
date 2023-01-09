@@ -1,8 +1,8 @@
-#                                                   ************** week 13 project **************
-# 1) import random & string python lib 
-# 2) Allow user to input how many EC2 they want names for and output the same amount of unique names
-# 3) Allow the user to input the name of their department that is usedd in the unique name
-# 4) generate random characters & numbers that will be included in the unique name
+#                                                  **EC2 Random Name Generator**
+#1. All the user to input how many EC2 instances they want names for and output the same amount of unique names.
+#2. Allow the user to input the name of their department that is used in the unique name.
+#3. Generate random characters and numbers that will be included in the unique name.
+
 
 import random 
 import string
